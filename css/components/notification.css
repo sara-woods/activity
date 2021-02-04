@@ -1,0 +1,51 @@
+.notifications {
+  margin-top: 30px;
+}
+.notification {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color:white;
+  margin: 5px 0;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.notification-text  {
+  padding-left: 20px;
+  flex-grow: 1;
+}
+
+.notification-text a {
+  text-decoration: none;
+  color:#5EC1C3;
+  
+}
+
+p {
+  margin: 0;
+}
+
+h5 {
+  margin: 0;
+  margin-bottom: 5px;
+  color:#8B73AA;
+  font-size: 14px;
+}
+
+.action-link {
+  text-decoration: none;
+  color: #5EC1C3;
+  opacity: 0;
+}
+
+.notification:hover .action-link {
+  opacity: 1;
+  
+}
+.action-link:hover {
+  color: #8B73AA;
+}
+
+
+

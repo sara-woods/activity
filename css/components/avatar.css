@@ -1,0 +1,12 @@
+/* Your avatar CSS code here */
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-circle.avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid rgb(242, 237, 255);
+}
